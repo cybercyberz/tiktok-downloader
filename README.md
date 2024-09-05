@@ -24,7 +24,7 @@ Install the pyktok library by running the following command:
 Create a file named url.txt in the same directory as the script.
 Add TikTok video URLs to this file, each on a new line.
 the content of the url.txt file should be videos link, you can achieve this by using chrome extension [Link Gropher](https://sites.google.com/site/linkgopher/)
-after you installed the link gropher, open the tiktok account and scroll down untill are videos are loaded, and extraxt all link using the extension, copy it into url.txt file
+after you installed the link gropher, open the tiktok account and scroll down until are videos are loaded, and extract all link using the extension, and copy it into url.txt file
 
 **Usage Instructions**
 Place the **script file** and **url.txt** in the same directory.
@@ -33,10 +33,10 @@ Run the script using the following command:
 `python main_file.py`
 The script will read the URLs from url.txt, download each video, and save them in the same directory.
 NOTES :
-Ensure firefox is installed on your system
+Ensure Firefox is installed on your system
 
 Troubleshooting
-Ensure Browser Compatibility: The script uses a browser to access cookies. Use Firefox) is installed on your system.
+Ensure Browser Compatibility: The script uses a browser to access cookies. Ensure Firefox is installed on your system.
 Check Python Path: If you encounter issues running the script, ensure that Python is added to your system's PATH.
 Notes
 The script is designed to skip non-video URLs.
